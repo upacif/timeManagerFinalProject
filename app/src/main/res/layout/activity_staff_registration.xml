@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".userRegistration"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/registerlogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textSize="18dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sfname"
+
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="First name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/slname"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="Last name"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="User Name"
+        android:textSize="14dp" />
+    <EditText
+        android:id="@+id/screenName"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="Screen  Name"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:textSize="14dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:background="#11000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="#D6D2D2"
+        android:hint="Comfirm Password"
+        android:textSize="14dp"
+        android:inputType="textPassword"/>
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/staffRegButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="REGISTER" />
+
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/gotoEvent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Already have Account" />
+
+
+</LinearLayout>

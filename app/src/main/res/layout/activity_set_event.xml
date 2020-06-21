@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setEvent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/start"
+            android:hint="Start Time"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"/>
+
+        <TextView
+            android:id="@+id/end"
+            android:layout_marginLeft="2dp"
+            android:hint="End time"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+        
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:hint="Select Day"
+        android:id="@+id/day"
+
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDay"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:hint="Place of work"-->
+        <!--android:id="@+id/owner"-->
+
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="input activity"
+        android:id="@+id/event"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:text="Send"
+        android:textSize="18dp"
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:text="EMERGENCY INFO"
+        android:textSize="18dp"
+        android:id="@+id/gotoEmergence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".userRegistration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Fill The Form"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="First name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="Last name"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="ID number"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="Province"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="District"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/sector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="Sector"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/cell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="3dp"
+
+        android:hint="Phone Number"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/citizenRegButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="REGISTER" />
+    <!--<Button-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/showButton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:hint="Show " />-->
+
+</LinearLayout>
